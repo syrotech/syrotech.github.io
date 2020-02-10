@@ -2275,8 +2275,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: rgb(134, 161, 224);
+  border-color: white;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2292,7 +2292,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #148f77;
+  background-color: rgb(134, 161, 224);
   border-color: #12846e;
 }
 
@@ -4731,7 +4731,7 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #148f77;
+  background-color: rgb(134, 161, 224);
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6236,7 +6236,7 @@ header.bg-primary {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: rgb(134, 161, 224) !important;
 }
 
 .bg-secondary {
@@ -9777,7 +9777,8 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  /* background-color: rgba(26, 188, 156, 0.9); */
+  background-color: rgba(78, 178, 210, 0.7);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -9869,6 +9870,10 @@ form .row:first-child .floating-label-form-group {
   margin-left: 10em;
   /* background-color: gray; */
   color: #fff;
+}
+
+.skill-icon {
+  padding-bottom: 40px;
 }
 
 .contact-info {
