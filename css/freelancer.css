@@ -9865,8 +9865,16 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  /* background-color: rgb(78, 178, 210); */
+  margin-right: 10em;
+  margin-left: 10em;
+  /* background-color: gray; */
   color: #fff;
+}
+
+.contact-info {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .copyright {
