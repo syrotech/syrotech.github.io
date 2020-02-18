@@ -6103,6 +6103,10 @@ a.close.disabled {
   opacity: 1;
 }
 
+.repo-links {
+  height: 40px;
+}
+
 .carousel-caption {
   position: absolute;
   right: 15%;
