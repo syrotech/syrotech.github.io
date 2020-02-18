@@ -2255,13 +2255,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #212529;
+  color: white;
   background-color: #4eb2d2;
   border-color: #4eb2d2;
 }
 
 .btn-primary:hover {
-  color: #fff;
+  color: black;
   background-color: #33a3c7;
   border-color: #309bbd;
 }
@@ -6204,20 +6204,19 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-header.bg-primary {
-  background-image: url("../img/background2.jpeg") !important;
-  background-color: #1abc9c !important;
+.bg-primary-background {
+  background-color: #4eb2d2 !important;
+  background-image: url(../img/background2.jpeg) !important;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#resume-button {
-  margin-top: 20px;
-}
-
 .bg-primary {
   background-color: #4eb2d2 !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9618,6 +9617,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-xl {
+  margin-top: 30px;
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
 }
@@ -9772,13 +9772,37 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.portfolio-hover-title {
+  margin: 2px;
+  font-size: 1.25rem;
+}
+
+.portfolio-hover-paragraph-type {
+  color: white;
+  text-shadow: 1px;
+  margin: 2px;
+}
+
+.portfolio-hover-paragraph-time {
+  color: white;
+  text-shadow: 1px;
+  margin: 2px;
+}
+
+.portfolio-hover-paragraph-technology {
+  color: white;
+  text-shadow: 1px;
+  margin: 2px;
 }
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
@@ -9796,6 +9820,11 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 3rem;
   color: #4eb2d2;
   opacity: 1;
+}
+
+.skill-icon {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .floating-label-form-group {
@@ -9841,6 +9870,7 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
+
 .floating-label-form-group-with-focus label {
   color: #4eb2d2;
 }
@@ -9852,20 +9882,8 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  margin-right: 10em;
-    margin-left: 10em;
   background-color: white;
   color: #fff;
-}
-
-.skill-icon {
-  padding-bottom: 40px;
-}
-
-.contact-info {
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .copyright {
