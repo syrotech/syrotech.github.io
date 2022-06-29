@@ -9854,4 +9854,6 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: rgba(0, 0, 0, 0.3);
+  width: '100%';
+  z-index: 0;
 }
